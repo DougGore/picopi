@@ -160,7 +160,7 @@ char * strndup16to8 (const char16_t* s, size_t n)
     if (len >= SIZE_MAX-1)
         return NULL;
 
-    ret = malloc(len + 1);
+    ret = (char*) malloc(len + 1);
     if (ret == NULL)
         return NULL;
 

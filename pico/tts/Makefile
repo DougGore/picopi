@@ -1,5 +1,5 @@
 CC = g++
-TARGET = testtts
+TARGET = pico2wave
 LIBS = -lexpat -lsvoxpico
 # CFLAGS = -fPIC -Wall -Wextra -O2 -g # C flags
 # #LDFLAGS = -shared  # linking flags
